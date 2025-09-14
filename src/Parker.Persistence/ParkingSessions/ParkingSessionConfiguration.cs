@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using Parker.Domain.Features.ParkingSessions;
 
-namespace Parker.Infrastructure.Persistence.ParkingSessions;
+namespace Parker.Persistence.ParkingSessions;
 
 public sealed class ParkingSessionConfiguration : IEntityTypeConfiguration<ParkingSession>
 {

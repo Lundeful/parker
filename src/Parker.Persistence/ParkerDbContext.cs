@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Parker.Domain.Features.ParkingSessions;
 using Parker.Domain.Features.ParkingSpots;
 
-namespace Parker.Infrastructure.Persistence;
+namespace Parker.Persistence;
 
 public sealed class ParkerDbContext : DbContext
 {

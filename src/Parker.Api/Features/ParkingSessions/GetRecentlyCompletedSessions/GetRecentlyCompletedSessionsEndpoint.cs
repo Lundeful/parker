@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Parker.Api.Common;
 using Parker.Api.Common.Extensions;
 using Parker.Api.Features.ParkingSessions.Common.Queries;
-using Parker.Infrastructure.Persistence;
+using Parker.Persistence;
 
 namespace Parker.Api.Features.ParkingSessions.GetRecentlyCompletedSessions;
 

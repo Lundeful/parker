@@ -1,11 +1,11 @@
 using Parker.Api.Common.Extensions;
-using Parker.Infrastructure;
+using Parker.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services
     .AddApi(builder.Configuration)
-    .AddInfrastructure(builder.Configuration);
+    .AddPersistence(builder.Configuration);
 
 await builder
     .Build()

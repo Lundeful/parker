@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Parker.Infrastructure\Parker.Infrastructure.csproj" />
+      <ProjectReference Include="..\Parker.Persistence\Parker.Persistence.csproj" />
     </ItemGroup>
 
 </Project>

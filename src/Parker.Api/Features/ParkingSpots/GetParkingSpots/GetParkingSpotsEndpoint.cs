@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 using Parker.Api.Common;
 using Parker.Api.Common.Extensions;
-using Parker.Infrastructure.Persistence;
+using Parker.Persistence;
 
 namespace Parker.Api.Features.ParkingSpots.GetParkingSpots;
 

@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http.HttpResults;
 using Parker.Api.Common;
 using Parker.Api.Common.Extensions;
-using Parker.Infrastructure.Persistence;
+using Parker.Persistence;
 
 namespace Parker.Api.Features.ParkingSessions.StopSession;
 
