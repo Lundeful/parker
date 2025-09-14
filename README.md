@@ -61,8 +61,7 @@ beginning things move quickly, and unit testing is often too tightly coupled. In
 some tests.
 
 The Domain project gets unit tests since it doesn't have any dependencies. The API projects get a mix; Unit Tests for smaller things like
-extensions, utils, etc. The feature folders get integration tests, using test containers and a real DB. Infrastructure I would really only
-test the external parts. Either integration tests against a test environment or mocks for contract testing.
+extensions, utils, etc. The feature folders get integration tests, using test containers and a real DB.
 
 ## Hosting, CI/CD, DevOps
 
